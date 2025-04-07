@@ -53,7 +53,7 @@ const components: { title: string; href: string; description: string }[] = [
   },
 ]
 
-export function NavigationMenuDemo() {
+function NavigationMenuDemo() {
   return (
     <NavigationMenu className="max-w-screen-xl w-full">
       <NavigationMenuList className="flex space-x-12 text-white">
